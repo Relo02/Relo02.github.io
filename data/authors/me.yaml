@@ -24,32 +24,26 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ortolore@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/Relo02
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/lorenzo-ortolani-6135b7240/
 
 interests:
-  - Large Language Models
+  - Machine Learining
   - Computer Vision
   - Reinforcement Learning
-  - AI Ethics
+  - Control systems
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+  - degree: MSc Automation and Control Engineering
+    institution: Politecnico di Milano
+    start: 2024-09-12
+    end: 2027-09-20
+    summary: 
+      # Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
       url: /resume.pdf
