@@ -11,10 +11,10 @@ name:
 postnominals:
   - MSc student
 status:
-  icon: "☕️"
+  icon: "🤖"
 role: Student of Automation and Control Engineering
 bio: |
-  Lorenzo Ortolani is a Master’s degree student in Automation and Control Engineering at Politecnico di Milano. He has acquired solid experience in autonomous navigation systems, with a particular focus on data-driven approaches for locomotion, state estimation, and control in mobile robotics.
+  Lorenzo Ortolani is a Master’s degree student in Automation and Control Engineering at Politecnico di Milano. He has acquired solid experience in robotics autonomous navigation systems, with a particular focus on data-driven approaches for locomotion, state estimation, and control in mobile robotics.
 
   Lorenzo is passionate about pushing the boundaries of artificial intelligence applied to robotics, aiming to tackle challenging problems that go beyond classical computational paradigms by leveraging advanced AI-driven robotic systems.
 
@@ -46,16 +46,16 @@ education:
       # Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
       text: Download dissertation
-      url: /resume.pdf
+      url: https://www.dropbox.com/scl/fi/ysuyc31v19ik7j9qls99y/lorenzo_cv.pdf?rlkey=kgqua61o1bxgnvmaxiseo0q0t&st=crs15f9a&dl=0
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MS Automation and Control Engineering
+    institution: Politecnico di Milano
+    start: 2024-09-13
+    end: 2027-09-20
+  - degree: BS Automation Engineering
+    institution: Politecnico di Milano
+    start: 2021-09-12
+    end: 2024-05-24
 
 experience:
   - role: Senior AI Research Scientist
