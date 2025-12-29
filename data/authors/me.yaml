@@ -5,22 +5,20 @@ name:
   display: Lorenzo Ortolani
   given: Lorenzo
   family: Ortolani
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
   - MSc student
 status:
   icon: "🤖"
-role: Student of Automation and Control Engineering
+role: MSc Student in Automation and Control Engineering
 bio: |
-  Lorenzo Ortolani is a Master’s degree student in Automation and Control Engineering at Politecnico di Milano. He has acquired solid experience in robotics autonomous navigation systems, with a particular focus on data-driven approaches for locomotion, state estimation, and control in mobile robotics.
+  Robotics and automation engineering student with hands-on experience in autonomous navigation, perception systems, and embedded control. 
+  Strong background in robotics software development, sensor fusion, computer vision, and deep learning.
+  Passionate about building intelligent, real-time autonomous systems capable of robust performance in dynamic and GPS-denied environments.
 
-  Lorenzo is passionate about pushing the boundaries of artificial intelligence applied to robotics, aiming to tackle challenging problems that go beyond classical computational paradigms by leveraging advanced AI-driven robotic systems.
-
-affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+affiliations: []
 
 links:
   - icon: at-symbol
@@ -32,77 +30,122 @@ links:
     url: https://www.linkedin.com/in/lorenzo-ortolani-6135b7240/
 
 interests:
-  - Machine Learining
+  - Autonomous Robotics
+  - Sensor Fusion
   - Computer Vision
-  - Reinforcement Learning
-  - Control systems
+  - Deep Learning
+  - Embedded Control Systems
 
 education:
   - degree: MSc Automation and Control Engineering
     institution: Politecnico di Milano
-    start: 2024-09-12
-    end: 2027-09-20
-    summary: 
-      # Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    start: 2024-09-01
+    end: ""
+    summary: |
+      Focus: Mechatronics, robotics, control theory, and artificial intelligence.
+      Coursework includes mobile robot control, perception, localization, mapping, robot locomotion, nonlinear trajectory optimization, advanced control algorithms, and AI with emphasis on machine learning, deep learning, and multi-agent systems for control applications.
     button:
-      text: Download dissertation
+      text: Download CV
       url: https://www.dropbox.com/scl/fi/ysuyc31v19ik7j9qls99y/lorenzo_cv.pdf?rlkey=kgqua61o1bxgnvmaxiseo0q0t&st=crs15f9a&dl=0
       icon: hero/arrow-down-tray
-  - degree: MS Automation and Control Engineering
+  - degree: BSc Automation Engineering
     institution: Politecnico di Milano
-    start: 2024-09-13
-    end: 2027-09-20
-  - degree: BS Automation Engineering
-    institution: Politecnico di Milano
-    start: 2021-09-12
-    end: 2024-05-24
+    start: 2021-09-01
+    end: 2024-09-01
+    summary: |
+      Focus: Mechatronics, robotics, control theory, electronics, computer science, and automation systems.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Robotics Challenge Participant – Leonardo Drone Contest
+    org: AIRLab POLIMI
+    start: 2025-04-01
+    end: 2025-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Secured second place in an advanced robotics competition focused on autonomous navigation and perception.
+      - Designed path planning and navigation software using ROS 2 for ground robots and quadcopters.
+      - Integrated SLAM, YOLO object detection, and PTZ camera QR code recognition for dynamic task allocation.
+  - role: Perception Engineering and Controls – Project FALCO
+    org: AEA Polimi (Automation Engineering Association)
+    start: 2024-09-01
+    end: ""
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Developed EKF for multi-sensor fusion (IMU, GPS, barometer, magnetometer, visual odometry) on drones for GPS-denied navigation.
+      - Implemented stereo visual odometry (ORB-SLAM3), deployed on Jetson Orin Nano and PX4 flight controller for autonomous path planning with MPC and embedded deployment.
+      - Led end-to-end deployment from simulation to real flight.
 
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
+      - label: C++
+        level: 5
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: MATLAB
         level: 4
-  - name: Research & Communication
+      - label: Simulink
+        level: 4
+      - label: Java
+        level: 2
+  - name: Frameworks & Tools
     items:
-      - label: Academic Writing
+      - label: ROS 1/2
         level: 5
-      - label: Conference Presentations
+      - label: OpenCV
         level: 4
-      - label: Grant Proposals
+      - label: YOLO
+        level: 4
+      - label: ORB-SLAM3
+        level: 4
+      - label: Gazebo
+        level: 4
+      - label: Docker
+        level: 3
+      - label: PX4
+        level: 4
+      - label: Linux
+        level: 4
+      - label: PyTorch
+        level: 3
+  - name: Domains
+    items:
+      - label: Autonomous Navigation
+        level: 5
+      - label: Sensor Fusion
+        level: 5
+      - label: Computer Vision
+        level: 5
+      - label: Control Systems
+        level: 5
+      - label: Deep Learning
         level: 4
 
 languages:
-  - name: English
+  - name: Italian
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Leonardo Drone Contest – Second Place
+    awarder: Leonardo S.p.A.
+    date: "2025-09-01"
+    summary: Secured 2nd place in a national university robotics challenge on autonomous navigation.
+
+projects:
+  - title: Deep Learning Challenge – Image Classification
+    organization: Politecnico di Milano
+    date: "2025-12-01"
+    summary: |
+      Designed a ResNet-50-based CNN for image classification in a course contest (out of 193 teams); 4th place.
+  - title: Deep Learning Challenge – Pirate Pain Classification
+    organization: Politecnico di Milano
+    date: "2025-11-01"
+    summary: |
+      Designed a GRU/LSTM pipeline (with attention mechanisms) for multivariate time-series human motion modeling; 27th out of 193 teams.
+  - title: Odometry and Localization – Autonomous Car on Monza F1 Circuit
+    organization: Politecnico di Milano
+    date: "2025-04-01"
+    summary: |
+      Developed a ROS1-based pipeline for odometry/GPS fusion on an Ackermann-steered car using EKF for global localization.
