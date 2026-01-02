@@ -1,16 +1,24 @@
 /* Custom CSS for Hugo Blox site */
 
 /* Resize profile avatar in bio section */
-/* .avatar {
-  width: 500px !important;
-  height: 500px !important;
-  max-width: 500px !important;
-  max-height: 500px !important;
-} */
+.avatar {
+  width: 250px !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  border-radius: 8px !important;  /* Slightly rounded corners, remove if you want square */
+}
 
-/* Alternative: target the avatar image directly */
-/* .avatar img {
+/* Make the avatar image show fully without cropping */
+.avatar img {
   width: 100% !important;
-  height: 100% !important;
-  object-fit: cover;
-} */
+  height: auto !important;
+  object-fit: contain !important;  /* Shows full image without cropping */
+  object-position: center !important;
+}
+
+/* If the avatar container is circular by default, override it */
+.rounded-full {
+  border-radius: 8px !important;  /* Change from circle to rounded rectangle */
+}
