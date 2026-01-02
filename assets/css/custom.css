@@ -1,16 +1,16 @@
 /* Custom CSS for Hugo Blox site */
 
 /* Resize profile avatar in bio section */
-.avatar {
+/* .avatar {
   width: 500px !important;
   height: 500px !important;
   max-width: 500px !important;
   max-height: 500px !important;
-}
+} */
 
 /* Alternative: target the avatar image directly */
-.avatar img {
+/* .avatar img {
   width: 100% !important;
   height: 100% !important;
   object-fit: cover;
-}
+} */
