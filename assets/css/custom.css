@@ -1,44 +1,24 @@
 /* Custom CSS for Hugo Blox site */
 
 /* Resize profile avatar in bio section */
-.avatar,
-.avatar-wrapper,
-[class*="avatar"] {
+.avatar {
   width: 250px !important;
   height: auto !important;
   max-width: 100% !important;
   max-height: none !important;
   aspect-ratio: auto !important;
-  border-radius: 8px !important;
-  overflow: visible !important;  /* Prevent clipping */
+  border-radius: 8px !important;  /* Slightly rounded corners, remove if you want square */
 }
 
 /* Make the avatar image show fully without cropping */
-.avatar img,
-.avatar-wrapper img,
-[class*="avatar"] img {
+.avatar img {
   width: 100% !important;
   height: auto !important;
   object-fit: contain !important;  /* Shows full image without cropping */
-  object-position: top center !important;  /* Prioritize showing the top (hair) */
-  clip-path: none !important;
+  object-position: center !important;
 }
 
-/* Override any circular/clipping styles */
-.rounded-full,
-.avatar.rounded-full,
-img.rounded-full {
-  border-radius: 8px !important;
-  clip-path: none !important;
-  overflow: visible !important;
-}
-
-/* Target Hugo Blox specific avatar containers */
-.hb-avatar,
-.hb-avatar img {
-  width: 250px !important;
-  height: auto !important;
-  object-fit: contain !important;
-  overflow: visible !important;
-  clip-path: none !important;
+/* If the avatar container is circular by default, override it */
+.rounded-full {
+  border-radius: 8px !important;  /* Change from circle to rounded rectangle */
 }
