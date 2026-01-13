@@ -17,11 +17,11 @@ Autonomous navigation in GPS-denied or dynamic environments requires robust loca
 
 - Implemented **Model Predictive Control (MPC)** for local trajectory optimization
 - Integrated with ROS 2 navigation stack with gazebo simulation and PX4 low levels controllers
-- Tested on both ground robots and quadcopters
-- Combined with SLAM and object detection for obstacle avoidance
+- Tested on a Quadcopter
+- Combined with SLAM
 
 ## Technologies
 
 - **Frameworks:** ROS 2, MPC library CasADi
 - **Sensors:** LiDAR, IMU
-- **Hardware:** [Quadcopter with pixhawk flight controller and Jetson Orin Nano]
+- **Hardware:** Quadcopter with pixhawk flight controller and Jetson Orin Nano used for higher computations
