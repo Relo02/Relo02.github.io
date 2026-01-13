@@ -25,5 +25,3 @@ Autonomous navigation in GPS-denied or dynamic environments requires robust loca
 - **Frameworks:** ROS 2, MPC library CasADi
 - **Sensors:** LiDAR, IMU
 - **Hardware:** [Quadcopter with pixhawk flight controller and Jetson Orin Nano]
-
-## Media
