@@ -10,7 +10,7 @@ tags:
   - RNN
 ---
 
-{{< notebook src="final_version.ipynb" >}}
+{{< notebook src="/notebooks/final_version.ipynb" >}}
 
 ## Problem
 
