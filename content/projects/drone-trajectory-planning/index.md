@@ -3,6 +3,10 @@ title: Drone trajectory planning
 date: 2025-11-03
 draft: false
 summary: This project develops and implements an MPC based local path planning algorithms to enhance the autonomous navigation capabilities of mobile robots
+tags:
+  - Path planning
+  - MPC
+  - ROS2
 links:
   - type: code
     url: https://github.com/Relo02/Drone-optimal-trajectory
