@@ -27,7 +27,3 @@ Autonomous navigation in GPS-denied or dynamic environments requires robust loca
 - **Hardware:** [Quadcopter with pixhawk flight controller and Jetson Orin Nano]
 
 ## Media
-
-<!-- ![Trajectory visualization](trajectory.png)
-
-{{< video src="demo.mp4" controls="yes" >}} -->
