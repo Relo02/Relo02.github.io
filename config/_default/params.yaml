@@ -2,17 +2,19 @@ hugoblox:
   schema: "2.0"
   identity:
     name: Lorenzo Ortolani
+    organization: Lorenzo Ortolani
     type: person
-    tagline: Robotics and Control Engineer | Politecnico di Milano
-    description: Robotics and automation engineering student with hands-on experience in autonomous navigation, perception systems, Machine Learning and control systems
-    organization: Politecnico di Milano
+    tagline: "Roboticist · Physical AI & VLA for Humanoids"
+    description: "Lorenzo Ortolani — roboticist and co-founder & CTO of TalOS Robotics AI. Building Physical AI and Vision-Language-Action (VLA) policies so humanoid robots learn diverse skills and generalize across industrial tasks."
+    social:
+      twitter: ""
   theme:
-    mode: system
-    pack: coffee
+    mode: dark
+    pack: default
     colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+      primary: cyan
+      secondary: violet
+      neutral: slate
   typography:
     font: sans
     size: md

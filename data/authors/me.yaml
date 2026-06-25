@@ -9,14 +9,18 @@ name:
   pronunciation: ''
   pronouns: he/him
 postnominals:
-  - MSc student
+  - Co-Founder & CTO @ TalOS Robotics AI
 status:
   icon: "🤖"
-role: MSc Student in Automation and Control Engineering
+role: Roboticist · Physical AI & VLA for Humanoids
 bio: |
-  Robotics and automation engineering student with hands-on experience in autonomous navigation, perception systems, and embedded control. 
-  Strong background in robotics software development, sensor fusion, computer vision, and deep learning.
-  Passionate about building intelligent, real-time autonomous systems capable of robust performance in dynamic and GPS-denied environments.
+  I build **Physical AI** — robots that perceive, reason, and act in the real world.
+  My focus is advancing **Vision-Language-Action (VLA)** policies so that a single
+  humanoid can learn a diverse library of skills and *choose the right one* for whatever
+  industrial task it faces, generalizing far beyond a single demonstration.
+  I co-founded TalOS Robotics AI to put this in operators' hands, and I work across the
+  full stack: locomotion and navigation, learned manipulation, sim-to-real, and the
+  agent tooling that wraps it all together.
 
 affiliations: []
 
@@ -30,93 +34,101 @@ links:
     url: https://www.linkedin.com/in/lorenzo-ortolani-6135b7240/
 
 interests:
-  - Autonomous Robotics
-  - Sensor Fusion
-  - Computer Vision
-  - Deep Learning
-  - Embedded Control Systems
+  - Physical AI & Embodied Intelligence
+  - Vision-Language-Action (VLA) Policies
+  - Humanoid & Legged Robotics
+  - Reinforcement & Imitation Learning
+  - Autonomous Navigation & Sim-to-Real
 
 education:
-  - degree: MSc Automation and Control Engineering
+  - degree: MSc Automation and Control Engineering — Robotics & ML
     institution: Politecnico di Milano
     start: 2024-09-01
     end: ""
     summary: |
-      Focus: Mechatronics, robotics, control theory, and artificial intelligence.
-      Coursework includes mobile robot control, perception, localization, mapping, robot locomotion, nonlinear trajectory optimization, advanced control algorithms, and AI with emphasis on machine learning, deep learning, and multi-agent systems for control applications.
+      Robotics & ML track (120 ECTS). Coursework: Perception, Localization & Mapping for
+      Mobile Robots; Advanced Multivariable Control; Numerical Optimization for Control;
+      Aerial Robotics; Artificial Neural Networks & Deep Learning; Reinforcement Learning;
+      Model Identification & Data Analysis; Dynamics of Mechanical Systems.
     button:
       text: Download CV
-      url: https://www.dropbox.com/scl/fi/ysuyc31v19ik7j9qls99y/lorenzo_cv.pdf?rlkey=kgqua61o1bxgnvmaxiseo0q0t&st=crs15f9a&dl=0
+      url: /uploads/resume.pdf
       icon: hero/arrow-down-tray
   - degree: BSc Automation Engineering
     institution: Politecnico di Milano
     start: 2021-09-01
     end: 2024-09-01
     summary: |
-      Focus: Mechatronics, robotics, control theory, electronics, computer science, and automation systems.
+      Foundations in mechatronics, robotics, control theory, electronics, computer science,
+      and automation systems (180 ECTS).
 
 experience:
-  - role: Robotics Challenge Participant – Leonardo Drone Contest
-    org: AIRLab POLIMI
+  - role: Co-Founder & CTO — Robotics & ML Engineer
+    org: TalOS Robotics AI
+    start: 2025-01-01
+    end: ""
+    summary: |
+      - Co-founding an early-stage humanoid & general legged-robotics startup: software that lets operators train, deploy, and interact with robots through human feedback.
+      - Advancing Vision-Language-Action (VLA) policies so robots learn a library of skills and select the right one per task, generalizing across diverse industrial jobs.
+      - Building an MCP (Model Context Protocol) app that wraps training, deployment, and human-in-the-loop feedback as agent-callable tools — lowering the skill barrier for non-experts.
+      - Owning the robotics/ML stack: humanoid simulation (MuJoCo, Isaac Sim), ROS 2 integration, LLM/agent-driven control, and the dashboard tooling around it.
+  - role: Perception & Control Engineer — Robotics Software Engineer
+    org: AEA — Automation Engineering Association, Politecnico di Milano
+    start: 2024-05-01
+    end: ""
+    summary: |
+      - Co-developing an autonomous drone platform for GPS-denied environments.
+      - Built an EKF fusing IMU, GPS, barometer, magnetometer, and stereo visual odometry (ORB-SLAM3), deployed on NVIDIA Jetson Orin Nano.
+      - Developed an MPC-based path planner (CasADi); validated in Gazebo Harmonic with ROS 2 and deployed on Pixhawk/PX4. Leading bring-up from simulation to real-world flight.
+  - role: Robotics Challenge Participant — Leonardo Drone Contest
+    org: AIRLab, Politecnico di Milano (Leonardo S.p.A.)
     start: 2025-04-01
     end: 2025-09-01
     summary: |
-      - Secured second place in an advanced robotics competition focused on autonomous navigation and perception.
-      - Designed path planning and navigation software using ROS 2 for ground robots and quadcopters.
-      - Integrated SLAM, YOLO object detection, and PTZ camera QR code recognition for dynamic task allocation.
-  - role: Perception Engineering and Controls – Project FALCO
-    org: AEA Polimi (Automation Engineering Association)
-    start: 2024-09-01
-    end: ""
-    summary: |
-      - Developed EKF for multi-sensor fusion (IMU, GPS, barometer, magnetometer, visual odometry) on drones for GPS-denied navigation.
-      - Implemented stereo visual odometry (ORB-SLAM3), deployed on Jetson Orin Nano and PX4 flight controller for autonomous path planning with MPC and embedded deployment.
-      - Led end-to-end deployment from simulation to real flight.
+      - Autonomous navigation of a mobile robot and a drone in environments with known and unknown obstacles, reaching targets while detecting ArUco markers and objects.
+      - Implemented planning algorithms via ROS 2 actions for mission-critical tasks; built a YOLO + OpenCV QR/object detector robust to noisy, blurred frames.
+      - Supported a PTZ camera system whose decoded payloads feed contextual information to the robot and drone for dynamic task adaptation.
 
 skills:
-  - name: Programming Languages
+  - name: Programming
     items:
-      - label: C++
-        level: 5
       - label: Python
         level: 5
-      - label: MATLAB
-        level: 4
-      - label: Simulink
+      - label: C++
+        level: 5
+      - label: C
         level: 4
       - label: Java
         level: 2
-  - name: Frameworks & Tools
+  - name: ML & Physical AI
     items:
-      - label: ROS 1/2
+      - label: PyTorch
         level: 5
+      - label: VLA / Imitation Learning
+        level: 4
+      - label: Reinforcement Learning
+        level: 4
+      - label: ACT (Action Chunking)
+        level: 4
       - label: OpenCV
         level: 4
-      - label: YOLO
+      - label: LLM / Agents (MCP)
         level: 4
-      - label: ORB-SLAM3
-        level: 4
-      - label: Gazebo
-        level: 4
-      - label: Docker
-        level: 3
-      - label: PX4
-        level: 4
-      - label: Linux
-        level: 4
-      - label: PyTorch
-        level: 3
-  - name: Domains
+  - name: Robotics & Control
     items:
-      - label: Autonomous Navigation
+      - label: ROS 2
         level: 5
-      - label: Sensor Fusion
+      - label: Isaac Sim
+        level: 4
+      - label: MuJoCo
+        level: 4
+      - label: CasADi / MPC
         level: 5
-      - label: Computer Vision
-        level: 5
-      - label: Control Systems
-        level: 5
-      - label: Deep Learning
+      - label: PX4 / Pixhawk
+        level: 4
+      - label: ORB-SLAM3 / SLAM
+        level: 4
+      - label: Docker / Linux
         level: 4
 
 languages:
@@ -125,27 +137,38 @@ languages:
     label: Native
   - name: English
     level: 4
-    label: Fluent
+    label: C1 / B2
+  - name: Spanish
+    level: 3
+    label: B1
 
 awards:
-  - title: Leonardo Drone Contest – Second Place
-    awarder: Leonardo S.p.A.
-    date: "2025-09-01"
-    summary: Secured 2nd place in a national university robotics challenge on autonomous navigation.
+  - title: 4th / 170 — Histopathology Image Classification Challenge
+    awarder: Politecnico di Milano — ANN & Deep Learning
+    date: "2025-12-01"
+    summary: Ranked 4th of 170 teams on a hidden test set with a RetCCL-pretrained ResNet-50 transfer-learning pipeline.
+  - title: 1st-Author Publication — IEEE ICRA 2026 Workshop
+    awarder: IEEE ICRA 2026
+    date: "2026-01-01"
+    summary: "Bayesian Optimization for Learning Nonlinear MPC in Autonomous Agent Navigation."
+  - title: YC Robotics Hackathon — MoonBot
+    awarder: Y Combinator (NASA, DeepMind, Scale AI)
+    date: "2026-05-01"
+    summary: Built an edge-first autonomous robot for inspection/intervention in space-like environments.
 
 projects:
-  - title: Deep Learning Challenge – Image Classification
+  - title: Bayesian Optimization for Learning Nonlinear MPC
+    organization: IEEE ICRA 2026 Workshop (1st author)
+    date: "2026-01-01"
+    summary: |
+      Learning the cost/weights of a nonlinear MPC navigation stack via Bayesian Optimization — deployed on a Unitree Go2 quadruped.
+  - title: MoonBot — YC Robotics Hackathon w/ Innate
+    organization: Y Combinator (NASA / DeepMind / Scale AI)
+    date: "2026-05-01"
+    summary: |
+      Edge-first autonomous robot for space-like inspection/intervention. AprilTag localization + an ACT (Action Chunking Transformer) imitation policy mapping perception directly to action.
+  - title: Histopathology Image Classification
     organization: Politecnico di Milano
     date: "2025-12-01"
     summary: |
-      Designed a ResNet-50-based CNN for image classification in a course contest (out of 193 teams); 4th place.
-  - title: Deep Learning Challenge – Pirate Pain Classification
-    organization: Politecnico di Milano
-    date: "2025-11-01"
-    summary: |
-      Designed a GRU/LSTM pipeline (with attention mechanisms) for multivariate time-series human motion modeling; 27th out of 193 teams.
-  - title: Odometry and Localization – Autonomous Car on Monza F1 Circuit
-    organization: Politecnico di Milano
-    date: "2025-04-01"
-    summary: |
-      Developed a ROS1-based pipeline for odometry/GPS fusion on an Ackermann-steered car using EKF for global localization.
+      4th / 170 teams. RetCCL-pretrained ResNet-50, PyTorch Lightning, WeightedRandomSampler, AdamW, label smoothing, cosine annealing.

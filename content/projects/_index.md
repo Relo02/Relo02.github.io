@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things and innovating. Here are a selection of projects that I have worked on over the years.
+      text: From humanoid VLA policies and quadruped navigation to GPS-denied drone autonomy — a selection of robotics &amp; Physical AI work.
       filters:
         folders:
           - projects
